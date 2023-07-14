@@ -73,7 +73,27 @@ function add(){
     output.innerHTML = sum;
 }
 
-function
+function divide(){
+    let numbers = output.innerHTML.split('/')
+    let result = 0
+    result = parseInt(numbers[0])/parent(numbers[1]);
+    output.innerHTML = result
+}
+
+function multiply(){
+    let numbers = output.innerHTML.split('X')
+    let result = 0
+    result = parseInt(numbers[0])*parent(numbers[1]);
+    output.innerHTML = result
+}
+
+function minus()
+{
+    let numbers = output.innerHTML.split('-')
+    let result = 0
+    result = parseInt(numbers[0])-parent(numbers[1]);
+    output.innerHTML = result
+}
 
 zero.addEventListener('click', ()=>{
     loadOutput(zero);
