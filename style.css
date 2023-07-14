@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(0,0%,93.33%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background-color: hsl(0,0%,93.33%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.top{
+    height: 30vh;
+    width: 30rem;
+    border-radius: 10px 10px 0px 0px;
+    background-color: hsl(199.2,18.8%,26.08%);
+}
+
+.top h4{
+    padding: 20px;
+    color: hsl(0,0%,90.59%);
+}
+
+
+.bottom{
+    height: 50vh;
+    width: 30rem;
+    border-radius: 0px 0px 10px 10px;
+    background-color: hsl(211.76,26.15%,12.75%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "nine clear percentage mul"
+    "six seven eight plus"
+    "three four five minus"
+    "first one two equals";
+}
+
+.clear button{
+    border: none;
+    outline: none;
+    background-color: hsl(0,0%,90.59%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color:  hsl(211.76,26.15%,12.75%);
+    grid-area: clear;
+}
+
+.percentage button{
+    border: none;
+    outline: none;
+    background-color: hsl(0,0%,90.59%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color:  hsl(211.76,26.15%,12.75%);
+    grid-area: percentage;
+}
+
+.mul button{
+    border: none;
+    outline: none;
+    background-color: hsl(0,0%,90.59%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color:  hsl(211.76,26.15%,12.75%);
+    grid-area: mul;
+}
+
+.plus button{
+    border: none;
+    outline: none;
+    background-color: hsl(0,0%,90.59%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;;
+    border-radius: 150%;
+    color:  hsl(211.76,26.15%,12.75%);
+    grid-area: plus;
+}
+
+.minus button{
+    border: none;
+    outline: none;
+    background-color: hsl(0,0%,90.59%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color:  hsl(211.76,26.15%,12.75%);
+    grid-area: minus;
+}
+
+.equals button{
+    border: none;
+    outline: none;
+    background-color: hsl(0,0%,90.59%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color:  hsl(211.76,26.15%,12.75%);
+    grid-area: equals;
+}
+
+.area0 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: first;
+}
+
+.area1 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: one;
+}
+
+.area2 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: two;
+}
+
+.area3 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: three;
+}
+
+
+.area4 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: four;
+}
+
+.area5 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: five;
+}
+
+.area6 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: six;
+}
+
+.area7 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: seven;
+}
+
+.area8 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: eight;
+}
+
+
+.area9 button{
+    border: none;
+    outline: none;
+    background-color: hsl(211.76,26.15%,12.75%);
+    padding: 20px;
+    gap: 15px;
+    margin-left: 15px;
+    border-radius: 150%;
+    color: hsl(0,0%,90.59%);
+    grid-area: nine;
+}
+
+.output{
+    width: 100%;
+}
