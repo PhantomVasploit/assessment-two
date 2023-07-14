@@ -71,8 +71,9 @@ function add(){
         sum += parseInt(number);
     })
     output.innerHTML = sum;
-    
 }
+
+function
 
 zero.addEventListener('click', ()=>{
     loadOutput(zero);
