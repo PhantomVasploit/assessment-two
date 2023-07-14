@@ -33,10 +33,10 @@ let seven = document.querySelector('.button7');
 let eight = document.querySelector('.button8');
 let nine = document.querySelector('.button9');
 let clear = document.querySelector('.clearBtn')
-let divide = document.querySelector('.divideBtn')
-let mul = document.querySelector('.mulBtn')
+// let divide = document.querySelector('.divideBtn')
+// let mul = document.querySelector('.mulBtn')
 let plus = document.querySelector('.plusBtn')
-let minus = document.querySelector('.minusBtn')
+// let minus = document.querySelector('.minusBtn')
 let equals = document.querySelector('.equalsBtn')
 
 
@@ -44,21 +44,21 @@ clear.addEventListener('click', ()=>{
     output.innerHTML = ""
 })
 
-divide.addEventListener('click', ()=>{
-    loadOutput(divide);
-})
+// divide.addEventListener('click', ()=>{
+//     loadOutput(divide);
+// })
 
-mul.addEventListener('click', ()=>{
-    loadOutput(mul);
-})
+// mul.addEventListener('click', ()=>{
+//     loadOutput(mul);
+// })
 
 plus.addEventListener('click', ()=>{
     loadOutput(plus);
 })
 
-minus.addEventListener('click', ()=>{
-    loadOutput(minus);
-})
+// minus.addEventListener('click', ()=>{
+//     loadOutput(minus);
+// })
 
 equals.addEventListener('click', ()=>{
     add()
